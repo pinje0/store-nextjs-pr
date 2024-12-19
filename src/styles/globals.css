@@ -1,3 +1,21 @@
+/* CSS HEX */
+/* --raisin-black: #2C252Aff; */
+/* --jet: #3F363Aff; */
+/* --van-dyke: #483F40ff; */
+/* --pale-dogwood: #CFBDB9ff; */
+/* --cinereous: #A18C88ff; */
+
+/* CSS HSL */
+/* --raisin-black: hsla(317, 9%, 16%, 1); */
+/* --jet: hsla(333, 8%, 23%, 1); */
+/* --van-dyke: hsla(353, 7%, 26%, 1); */
+/* --pale-dogwood: hsla(11, 19%, 77%, 1); */
+/* --cinereous: hsla(10, 12%, 58%, 1); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,12 +34,6 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  display: flex;
-  width: 100%;
-  height: 30px;
-  background-color: #000;
-  color: #fff;
-  align-items: center;
-  padding: 0 5%;
+.big {
+  font-size: 1rem;
 }
